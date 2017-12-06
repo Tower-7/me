@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font: 16px/1.8 "Microsoft Yahei",verdana;
+}
+.section{
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+/*膃��絮��桁�顒丞舟*/
+.section1{
+    background: #fff;
+    background-size: cover;
+}
+.section1 img {
+    position: relative;
+    top: 50%;
+    width: 100%;
+    transform-origin: 0 100%;
+    transform: translate(50%,-100%) scale(0.6);
+}
+.section1 .border {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) scale(1.8);
+    left: 10%;
+    width: 80%;
+    height: 65%;
+    border: 2px solid #000;
+}
+/*膃��絮��桁�顒丞舟*/
+.section2{
+    background-size: 100%;
+    color: #555;
+}
+.section2 h1{
+    margin: 15% auto;
+    color: #333;
+    font-size: 25px;
+    font-weight: normal;
+}
+.section2 p{
+    font-size: 16px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+
+}
+/*膃��絮��桁�顒丞舟*/
+.section3{
+    background: #fff;
+    background-size: 50%;
+    margin-top: 30px;
+}
+.section3 .author {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.section3 img{
+    width: 40%;
+}
+.section3 h3 {
+    font-weight: normal;
+}
+.section3 p{
+    color: #555;
+    font-size: 16px;
+    width: 80%;
+    margin: 40px auto;
+    text-align: left;
+}
+/*膃���絮��桁�顒丞舟*/
+.section4 img{
+   width: 100%;
+}
